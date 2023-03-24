@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./asset/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Grade Calculator</title>
+</head>
+
+<body>
+    <h1>GRADING SYSTEM ASSIGNMENT</h1>
+    <main >
+        <section class="inputSection">
+            <h2>Grading System In JS</h2>
+            <div class="inputBox">
+                <p>English</p>
+                <input type="text" class="englishMarks"/>
+            </div>
+            <div class="inputBox">
+                <p>Maths</p>
+                <input type="text" class="mathsMarks" />
+            </div>
+            <div class="inputBox">
+                <p>Physics</p>
+                <input type="text" class="physicsMarks"/>
+            </div>
+            <div class="inputBox">
+                <p>Chemistry</p>
+                <input type="text" class="chemistryMarks"/>
+            </div class="inputBox">
+            <div class="inputBox">
+                <p>Computer</p>
+                <input type="text" class="computerMarks"/>
+            </div>
+            <button class="calculateButton">Calculate Grade</button>
+        </section>
+        <section class="resultSection">
+            <div class="Total">
+                <h2>Total</h2>
+                <p class="totalMarks"></p>
+            </div>
+            <div class="Average">
+                <h2>Average</h2>
+                <p class="averageMarks"></p>
+            </div>
+            <div class="Grade">
+                <h2>Grade</h2>
+                <p class="studentGrade"></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

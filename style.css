@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: rgb(127, 214, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-bottom: 10vh;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputSection{
+    height: 60vh;
+    width: 50vw;
+    background-color: white;
+    margin-right: 5vw;
+    border-radius: 10px;
+}
+.inputSection h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 4vh;
+    border-radius: 10px 10px 0 0;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0;
+}
+
+.inputBox p{
+    font-size: 1.2rem;
+    margin-right: 2vw;
+}
+
+.inputBox input{
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.calculateButton{
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    margin-left: 20vw;
+    margin-top: 5vh;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.resultSection{
+    height: 60vh;
+    width: 30vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.Total h2{
+    border-radius: 10px 10px 0 0;
+}
+.resultSection div{
+    height: 20vh;
+}
+.resultSection div h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.resultSection div p{
+    margin: 7vh 0 0 3vw;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
